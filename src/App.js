@@ -7,6 +7,8 @@ import Dashboard from "./pages/Dashboard";
 import Employees from "./pages/Employees";
 import Orders from "./pages/Orders";
 import Users from "./pages/Users";
+import ErrorPage from "./pages/ErrorPage";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -21,20 +23,14 @@ function App() {
         </div>
       <Routes>
         <Route path="/" element={<Dashboard/>}/>
-      </Routes>
-      <Routes>
         <Route path="/dashboard" element={<Dashboard/>}/>
-      </Routes>
-      <Routes>
         <Route path="/employees" element={<Employees/>}/>
-      </Routes>
-      <Routes>
+        <Route path="/profile/:username" element={<Profile/>}/>
         <Route path="/orders" element={<Orders/>}/>
-      </Routes>
-      <Routes>
         <Route path="/users" element={<Users/>}/>
-      </Routes>
 
+        <Route path="*" element={<ErrorPage/>}/>
+      </Routes>
         <div className="bg-secondary p-3">
           <Footer />
         </div>
