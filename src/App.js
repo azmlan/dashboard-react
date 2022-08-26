@@ -6,9 +6,9 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import Employees from "./pages/Employees";
 import Orders from "./pages/Orders";
-import Users from "./pages/Users";
+import Clients from "./pages/Clients";
 import ErrorPage from "./pages/ErrorPage";
-import Profile from "./pages/Profile";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -17,21 +17,21 @@ function App() {
       <div className="sidebarApp col-2 ">
         <Sidebar />
       </div>
-      <div className="col-9  bg-primary  d-flex flex-column flex-grow-1 justify-content-between">
-        <div className=" bg-warning p-4">
+      <div className="col-9    d-flex flex-column flex-grow-1 justify-content-between">
+        <div className="  p-4">
           <Navbar />
         </div>
       <Routes>
         <Route path="/" element={<Dashboard/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/employees" element={<Employees/>}/>
-        <Route path="/profile/:username" element={<Profile/>}/>
+        <Route path="/products" element={<Products/>}/>
         <Route path="/orders" element={<Orders/>}/>
-        <Route path="/users" element={<Users/>}/>
+        <Route path="/clients" element={<Clients/>}/>
 
         <Route path="*" element={<ErrorPage/>}/>
       </Routes>
-        <div className="bg-secondary p-3">
+        <div className=" p-3">
           <Footer />
         </div>
       </div>

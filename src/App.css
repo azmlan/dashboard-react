@@ -1,3 +1,6 @@
 .sidebarApp{
     background:#1F2667;
 }
+.noBorder{
+    border: none;
+}
