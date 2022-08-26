@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App   col-12 d-flex  vh-100">
       <Router>
-      <div className="col-2 bg-dark">
+      <div className="sidebarApp col-2 ">
         <Sidebar />
       </div>
       <div className="col-9  bg-primary  d-flex flex-column flex-grow-1 justify-content-between">
