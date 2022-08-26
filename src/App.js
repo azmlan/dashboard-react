@@ -14,11 +14,11 @@ function App() {
   return (
     <div className="App   col-12 d-flex  vh-100">
       <Router>
-      <div className="sidebarApp col-2 ">
+      <div className="sidebarApp  col-2 ">
         <Sidebar />
       </div>
       <div className="col-9    d-flex flex-column flex-grow-1 justify-content-between">
-        <div className="  p-4">
+        <div className=" ">
           <Navbar />
         </div>
       <Routes>
