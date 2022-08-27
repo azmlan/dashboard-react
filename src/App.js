@@ -31,7 +31,7 @@ function App() {
 
         <Route path="*" element={<ErrorPage/>}/>
       </Routes>
-        <div className=" p-3">
+        <div className="">
           <Footer />
         </div>
       </div>
