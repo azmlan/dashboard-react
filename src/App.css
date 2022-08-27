@@ -55,6 +55,43 @@ tbody tr:hover{
     background-color: rgba(12, 12, 12, 0.01);
 }
 
+
+.grayHover{
+    background: rgba(0, 0, 0, 0.211);
+    transition: ease-in-out 0.3s;
+}
+.greenHover{
+    background: rgba(53, 227, 0, 0.211);
+    transition: ease-in-out 0.3s;
+}
+.redHover{
+    background: rgba(227, 0, 0, 0.211);
+    transition: ease-in-out 0.3s;
+}
+.blueHover{
+    background: rgba(0, 68, 227, 0.211);
+    transition: ease-in-out 0.3s;
+}
+
+.blueHover:hover{
+    background: rgba(0, 68, 227, 0.1);
+    transition: ease-in-out 0.3s;
+}
+
+.grayHover:hover{
+    background: rgba(0, 0, 0, 0.1);
+    transition: ease-in-out 0.3s;
+}
+.greenHover:hover{
+    background: rgba(53, 227, 0, 0.1);
+    transition: ease-in-out 0.3s;
+}
+.redHover:hover{
+    background: rgba(227, 0, 0, 0.1);
+    transition: ease-in-out 0.3s;
+}
+
+
 @media (max-width: 576px) {
     .col-xs-12 {
         flex: 0 0 auto;

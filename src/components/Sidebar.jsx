@@ -12,11 +12,11 @@ let navigate = useNavigate();
         <h3 className='   p-5 row align-items-center'>Logo</h3>
 
       <div className="sidebar-links   h-100 d-flex flex-column align-items-center justify-content-around mb-5 text-dark">
-        <button onClick={()=>navigate('/')} className="btn  ">لوحة التحكم</button>
-        <button onClick={()=>navigate('/employees')} className="btn  ">الموظفين</button>
-        <button onClick={()=>navigate('/clients')} className="btn  ">العملاء</button>
-        <button onClick={()=>navigate('/products')} className="btn  ">المنتجات</button>
-        <button onClick={()=>navigate('/orders')} className="btn  ">الطلبات</button>
+        <button type='button' onClick={()=>navigate('/')} className="btn  ">لوحة التحكم</button>
+        <button type='button' onClick={()=>navigate('/employees')} className="btn  ">الموظفين</button>
+        <button type='button' onClick={()=>navigate('/clients')} className="btn  ">العملاء</button>
+        <button type='button' onClick={()=>navigate('/orders')} className="btn  ">الطلبات</button>
+        <button type='button' onClick={()=>navigate('/products')} className="btn  ">المنتجات</button>
       </div>
 
       <div className="sidebar-other   h-100 d-flex flex-column align-items-center justify-content-start ">

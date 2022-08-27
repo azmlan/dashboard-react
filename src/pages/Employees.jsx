@@ -9,7 +9,7 @@ export default function Employees() {
         <table className="table ">
   <thead >
     <tr>
-      <th>#</th>
+      <th>ID</th>
       <th>الإسم</th>
       <th>الصلاحيات</th>
       <th>تعديل</th>
@@ -21,8 +21,8 @@ export default function Employees() {
       <td>عبدالعزيز</td>
       <td>مدير كبير</td>
       <td className='d-flex  justify-content-center'>
-        <button className='btn btn-sm noBorder   text-dark noMargin noPadding   '><FaEdit size={14}/></button> 
-        <button className='btn btn-sm noBorder   text-dark noMargin noPadding'><RiDeleteBin6Line size={15}/></button>
+        <button className='btn btn-sm noBorder   text-dark mx-2 noPadding   '><FaEdit size={14}/></button> 
+        <button className='btn btn-sm noBorder   text-dark mx-2 noPadding'><RiDeleteBin6Line size={15}/></button>
       </td>
     </tr>
     <tr>
@@ -30,8 +30,8 @@ export default function Employees() {
       <td>ملفي</td>
       <td>ابو المدير</td>
       <td className='d-flex  justify-content-center'>
-        <button className='btn btn-sm noBorder   text-dark noMargin noPadding   '><FaEdit size={14}/></button> 
-        <button className='btn btn-sm noBorder   text-dark noMargin noPadding'><RiDeleteBin6Line size={15}/></button>
+        <button className='btn btn-sm noBorder   text-dark mx-2 noPadding   '><FaEdit size={14}/></button> 
+        <button className='btn btn-sm noBorder   text-dark mx-2 noPadding'><RiDeleteBin6Line size={15}/></button>
       </td>
     </tr>
     <tr >
@@ -39,8 +39,8 @@ export default function Employees() {
       <td>عمر</td>
       <td>اخوه</td>
       <td className='d-flex  justify-content-center'>
-        <button className='btn btn-sm noBorder   text-dark iconCircle   '><FaEdit size={14}/></button> 
-        <button className='btn btn-sm noBorder   text-dark iconCircle'><RiDeleteBin6Line size={15}/></button>
+        <button className='btn btn-sm noBorder   text-dark    '><FaEdit size={14}/></button> 
+        <button className='btn btn-sm noBorder   text-dark '><RiDeleteBin6Line size={15}/></button>
       </td>
     </tr>
   </tbody>

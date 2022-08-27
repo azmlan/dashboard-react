@@ -10,7 +10,7 @@ export default function Clients() {
         <table className="table ">
           <thead>
             <tr>
-              <th>#</th>
+              <th>ID</th>
               <th>الإسم</th>
               <th>الإيميل</th>
               <th>العنوان</th>
@@ -20,7 +20,9 @@ export default function Clients() {
           <tbody>
             <tr>
               <th>1</th>
-              <td>عبدالعزيز</td>
+              <td>
+                <button type="button" className="btn btn-sm noBorder" onClick={()=>alert('بيانات العميل')} style={{fontSize:15}}>عبدالعزيز</button>
+              </td>
               <td>dev.abdulaziz@outlook.com</td>
               <td>القصيم - بريدة</td>
               <td className="">
@@ -37,7 +39,9 @@ export default function Clients() {
             </tr>
             <tr>
               <th>2</th>
-              <td>ملفي</td>
+              <td>
+                <button type="button" className="btn btn-sm noBorder" onClick={()=>alert('بيانات العميل')} style={{fontSize:15}}>عمر</button>
+              </td>
               <td>molvy51@gmail.com</td>
               <td>القصيم - بريدة</td>
               <td className="">
@@ -54,7 +58,9 @@ export default function Clients() {
             </tr>
             <tr>
               <th>3</th>
-              <td>عمر</td>
+              <td>
+                <button type="button" className="btn btn-sm noBorder" onClick={()=>alert('بيانات العميل')} style={{fontSize:15}}>ملفي</button>
+              </td>
               <td>omar053@hotmail.com</td>
               <td>القصيم - بريدة</td>
               <td className="">
