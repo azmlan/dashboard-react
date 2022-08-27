@@ -4,6 +4,7 @@ import {RiDeleteBin6Line} from 'react-icons/ri';
 export default function Employees() {
   return (
     <div className='employees '>
+      <h1 className='px-5'>الموظفين </h1>
       <div style={{maxWidth:"90%"}} className='container '>
         <table className="table ">
   <thead >
@@ -20,8 +21,8 @@ export default function Employees() {
       <td>عبدالعزيز</td>
       <td>مدير كبير</td>
       <td className='d-flex  justify-content-center'>
-        <button className='btn btn-sm noBorder   text-dark iconCircle   '><FaEdit size={14}/></button> 
-        <button className='btn btn-sm noBorder   text-dark iconCircle'><RiDeleteBin6Line size={15}/></button>
+        <button className='btn btn-sm noBorder   text-dark noMargin noPadding   '><FaEdit size={14}/></button> 
+        <button className='btn btn-sm noBorder   text-dark noMargin noPadding'><RiDeleteBin6Line size={15}/></button>
       </td>
     </tr>
     <tr>
@@ -29,8 +30,8 @@ export default function Employees() {
       <td>ملفي</td>
       <td>ابو المدير</td>
       <td className='d-flex  justify-content-center'>
-        <button className='btn btn-sm noBorder   text-dark iconCircle   '><FaEdit size={14}/></button> 
-        <button className='btn btn-sm noBorder   text-dark iconCircle'><RiDeleteBin6Line size={15}/></button>
+        <button className='btn btn-sm noBorder   text-dark noMargin noPadding   '><FaEdit size={14}/></button> 
+        <button className='btn btn-sm noBorder   text-dark noMargin noPadding'><RiDeleteBin6Line size={15}/></button>
       </td>
     </tr>
     <tr >
