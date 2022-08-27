@@ -12,7 +12,7 @@ import Products from "./pages/Products";
 
 function App() {
   return (
-    <div className="App   col-12 d-flex  vh-100">
+    <div className="App   col-12 d-flex  vh-100 bg-light">
       <Router>
       <div className="sidebarApp  col-2 ">
         <Sidebar />
