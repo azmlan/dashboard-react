@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 const Sidebar = () => {
 let navigate = useNavigate();
   return (
-    <div className="sidebar shadow mx-2">
+    <div className="sidebar shadow mx-2 ">
       <div className="sidebar-wrapper d-flex flex-column justify-content-around align-items-center  text-dark vh-100 ">
         <h3 className='   p-5 row align-items-center'>Logo</h3>
 

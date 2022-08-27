@@ -8,9 +8,9 @@ import { RiSearchLine } from "react-icons/ri";
 
 export default function Navbar() {
   return (
-    <div className="navbar d-flex flex-row  min-h-50  col-12 shadow">
+    <div className="navbar d-flex flex-row    col-12">
       {/* first part of the nav */}
-      <div className=" col-md-7  col-sm-12 col-xs-12 p-1 ">
+      <div className=" col-md-7  col-sm-12 col-xs-12 ">
         <button className=" btn  noBorder  barIconButton mx-3">
             <FaBars className="barIcon"/>
         </button>

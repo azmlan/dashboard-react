@@ -5,8 +5,7 @@
     border: none;
 }
 .navbar{
-    /* box-shadow: 0px 5px 5px 0px #e3e6ea; */
-
+    box-shadow: 0px 5px 5px 5px #e3e6ea;
 }
 .profile-img{
     max-width: 25px;
@@ -20,16 +19,19 @@
 .searchBox{
     border: none;
     width: 200px;
-    background-color: rgb(227, 226, 226,0.6);
+    background-color: rgb(227, 226, 226,0.3);
 }
 .searchBox:focus{
     box-shadow:  1px 1px 5px 2px #e3e6ea;
-        width: 250px;
+        width: 230px;
         outline: none;
+        background-color: rgb(227, 226, 226,0.6);
         transition: 0.2s;
 }
 .barIconButton{
-    padding: 0!important;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .barIcon:hover{
     width: 20px;
