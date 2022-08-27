@@ -2,10 +2,14 @@ import React from "react";
 import { FaEdit } from "react-icons/fa";
 import { FiEye } from "react-icons/fi";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import { BsPeople } from "react-icons/bs";
 export default function Clients() {
   return (
     <div className="clients ">
-      <h1 className="px-5">العملاء</h1>
+      <div className='d-flex flex-row  justify-content-start align-items-center mx-4'>
+      <h1 className='m-0 '>العملاء </h1>
+      <span   className=' mx-3'><BsPeople  size={40}/></span>
+      </div>
       <div style={{ maxWidth: "90%" }} className="container ">
         <table className="table ">
           <thead>

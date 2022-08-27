@@ -5,11 +5,15 @@ import { TbDots } from "react-icons/tb";
 import { FcCancel } from "react-icons/fc";
 import { IoIosArrowDropdown } from "react-icons/io";
 import { GrCart } from "react-icons/gr";
+import { MdProductionQuantityLimits } from "react-icons/md";
 
 export default function Orders() {
   return (
     <div className="orders ">
-    <h1 className="px-5">الطلبات</h1>
+    <div className='d-flex flex-row  justify-content-start align-items-center mx-4'>
+      <h1 className='m-0 '>الطلبات </h1>
+      <span className=' mx-3 '><MdProductionQuantityLimits  size={40}/></span >
+      </div>
     <div style={{ maxWidth: "90%" }} className="container ">
       <table className="table ">
         <thead>

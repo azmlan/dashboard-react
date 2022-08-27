@@ -1,10 +1,15 @@
 import React from 'react'
 import {FaEdit} from 'react-icons/fa'
 import {RiDeleteBin6Line} from 'react-icons/ri';
+import {FcCustomerSupport} from 'react-icons/fc';
 export default function Employees() {
   return (
     <div className='employees '>
-      <h1 className='px-5'>الموظفين </h1>
+      <div className='d-flex flex-row  justify-content-start align-items-center mx-4'>
+      <h1 className='m-0 '>الموظفين </h1>
+      <span className=' mx-3   noBorder'><FcCustomerSupport  size={40}/></span >
+      </div>
+
       <div style={{maxWidth:"90%"}} className='container '>
         <table className="table ">
   <thead >
