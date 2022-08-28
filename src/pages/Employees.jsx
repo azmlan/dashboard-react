@@ -93,8 +93,8 @@ export default function Employees() {
   </label>
   <input className="form-check-input mx-2" type="checkbox" value="" />
         </div>
-        </div>
-
+</div>
+<button type='button' className='btn btn-lg noBorder bgGray shadow'>اضافة</button>
 </form>
       </div>
     </div>
