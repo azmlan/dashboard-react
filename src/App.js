@@ -12,13 +12,13 @@ import Products from "./pages/Products";
 
 function App() {
   return (
-    <div className="App   col-12 d-flex  vh-100 bg-light">
+    <div className="App    bg-light">
       <Router>
-      <div className="sidebarApp  col-2 ">
+      <div className="sidebarApp  ">
         <Sidebar />
       </div>
-      <div className="col-9    d-flex flex-column flex-grow-1 justify-content-between">
-        <div className=" ">
+      <div className="appContent d-flex flex-column  justify-content-between">
+        <div className="navbarApp  ">
           <Navbar />
         </div>
       <Routes>
@@ -31,7 +31,7 @@ function App() {
 
         <Route path="*" element={<ErrorPage/>}/>
       </Routes>
-        <div className="">
+        <div className="footerApp mt-5 ">
           <Footer />
         </div>
       </div>

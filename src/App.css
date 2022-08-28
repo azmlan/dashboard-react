@@ -2,8 +2,23 @@ body{
     padding: 0;
     margin: 0;
 }
+.App{
+display: flex;
+flex-direction: row;
+}
 .sidebarApp{
-
+    flex-grow: 0.1;
+    overflow: hidden;
+    box-shadow:  1px 1px 5px 2px #e3e6ea;
+}
+.appContent{
+    flex-grow: 0.9;
+    overflow: hidden;
+}
+.sidebar{
+    position: relative;
+    height: 100%;
+    width: 100%;;
 }
 .noBorder{
     border: none;
@@ -19,6 +34,25 @@ body{
 .min-h-50{
     min-height: 50px;
     max-height: 70px;
+}
+.lightInput{
+    border: none;
+    background-color: rgba(253, 251, 251, 0.7);
+    width: 220px;
+    border-radius: 5%;
+    box-shadow:  1px 1px 5px 2px #e3e6ea;
+    outline: none;
+}
+.lightInput:focus{
+        padding: 2px;
+        transition: ease-in-out 0.3s;
+} 
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
 }
 .searchBox{
     border: none;
@@ -91,7 +125,9 @@ tbody tr:hover{
     transition: ease-in-out 0.3s;
 }
 
-
+.bgGray{
+    background-color: rgb(227, 226, 226,0.3);
+}
 @media (max-width: 576px) {
     .col-xs-12 {
         flex: 0 0 auto;

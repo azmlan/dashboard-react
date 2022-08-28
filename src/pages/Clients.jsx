@@ -31,51 +31,51 @@ export default function Clients() {
               <td>القصيم - بريدة</td>
               <td className="">
               <button className="btn btn-sm noBorder mx-2 noPadding text-dark">
-                  <FiEye size={14} />
+                  <FiEye  size={16} />
                 </button>
                 <button className="btn btn-sm noBorder mx-2 noPadding  text-dark">
                   <FaEdit size={14} />
                 </button>
                 <button className="btn btn-sm noBorder mx-2 noPadding text-dark ">
-                  <RiDeleteBin6Line size={15} />
+                  <RiDeleteBin6Line className="text-danger" size={16} />
                 </button>
               </td>
             </tr>
             <tr>
               <th>2</th>
               <td>
-                <button type="button" className="btn btn-sm noBorder" onClick={()=>alert('بيانات العميل')} style={{fontSize:15}}>عمر</button>
+                <button type="button" className="btn btn-sm noBorder" onClick={()=>alert('بيانات العميل')} style={{fontSize:16}}>عمر</button>
               </td>
               <td>molvy51@gmail.com</td>
               <td>القصيم - بريدة</td>
               <td className="">
               <button className="btn btn-sm noBorder mx-2 noPadding text-dark">
-                  <FiEye size={14} />
+                  <FiEye size={16} />
                 </button>
                 <button className="btn btn-sm noBorder mx-2 noPadding text-dark">
                   <FaEdit size={14} />
                 </button>
                 <button className="btn btn-sm noBorder mx-2 noPadding text-dark ">
-                  <RiDeleteBin6Line size={15} />
+                  <RiDeleteBin6Line className="text-danger" size={16} />
                 </button>
               </td>
             </tr>
             <tr>
               <th>3</th>
               <td>
-                <button type="button" className="btn btn-sm noBorder" onClick={()=>alert('بيانات العميل')} style={{fontSize:15}}>ملفي</button>
+                <button type="button" className="btn btn-sm noBorder" onClick={()=>alert('بيانات العميل')} style={{fontSize:18}}>ملفي</button>
               </td>
               <td>omar053@hotmail.com</td>
               <td>القصيم - بريدة</td>
               <td className="">
                 <button className="btn btn-sm noBorder mx-2 noPadding text-dark">
-                  <FiEye size={14} />
+                  <FiEye size={16} />
                 </button>
                 <button className="btn btn-sm noBorder mx-2 noPadding   text-dark    ">
                   <FaEdit size={14} />
                 </button>
                 <button className="btn btn-sm noBorder mx-2 noPadding   text-dark ">
-                  <RiDeleteBin6Line size={15} />
+                  <RiDeleteBin6Line className="text-danger" size={16} />
                 </button>
               </td>
             </tr>
