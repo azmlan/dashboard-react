@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 const Sidebar = () => {
 let navigate = useNavigate();
   return (
-    <div className="sidebar shadow mx-2 ">
+    <div className="sidebar  mx-2 ">
       <div className="sidebar-wrapper d-flex flex-column justify-content-around align-items-center  text-dark vh-100 ">
         <h3 className='   p-5 row align-items-center'>Logo</h3>
 
@@ -16,6 +16,7 @@ let navigate = useNavigate();
         <button type='button' onClick={()=>navigate('/employees')} className="btn  ">الموظفين</button>
         <button type='button' onClick={()=>navigate('/clients')} className="btn  ">العملاء</button>
         <button type='button' onClick={()=>navigate('/orders')} className="btn  ">الطلبات</button>
+        <button type='button' onClick={()=>navigate('/categories')} className="btn  ">التصنيفات</button>
         <button type='button' onClick={()=>navigate('/products')} className="btn  ">المنتجات</button>
       </div>
 

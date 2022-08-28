@@ -9,6 +9,7 @@ import Orders from "./pages/Orders";
 import Clients from "./pages/Clients";
 import ErrorPage from "./pages/ErrorPage";
 import Products from "./pages/Products";
+import Categories from "./pages/Categories";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/orders" element={<Orders/>}/>
         <Route path="/clients" element={<Clients/>}/>
         <Route path="/products" element={<Products/>}/>
+        <Route path="/categories" element={<Categories/>}/>
 
         <Route path="*" element={<ErrorPage/>}/>
       </Routes>
