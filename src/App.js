@@ -10,15 +10,20 @@ import Clients from "./pages/Clients";
 import ErrorPage from "./pages/ErrorPage";
 import Products from "./pages/Products";
 import Categories from "./pages/Categories";
+import DragDrop from "./components/DragDropImage/DragDrop";
+//////
+
 
 function App() {
+  
+
   return (
-    <div className="App    bg-light">
+    <div className="App    bg-light ">
       <Router>
       <div className="sidebarApp  ">
         <Sidebar />
       </div>
-      <div className="appContent d-flex flex-column  justify-content-between">
+      <div className="appContent d-flex flex-column  justify-content-between ">
         <div className="navbarApp  ">
           <Navbar />
         </div>
@@ -38,7 +43,7 @@ function App() {
         </div>
       </div>
       </Router>
-    </div>
+  </div>
   );
 }
 

@@ -73,8 +73,9 @@ export default function Employees() {
           </span>
         </div>
 
-        <form className="mt-3  align-self-center bgGray inputBox  w-50 w-sm-100 ">
-          <div className="d-flex flex-column mb-3 mt-3">
+        <form className="mt-3  align-self-center bgGray inputBoxCenter  w-50 w-sm-100 ">
+        <div className="col-6 ">
+          <div className="d-flex flex-column mb-3 mt-3 ">
             <label className="" htmlFor="form3Example1c">
               الإسم{" "}
             </label>
@@ -136,6 +137,7 @@ export default function Employees() {
           <button type="button" className="btn btn-lg noBorder bgGray shadow">
             اضافة
           </button>
+      </div>
         </form>
       </div>
     </div>
